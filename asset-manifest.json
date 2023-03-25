@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Ekko/static/css/main.38658869.css",
+    "main.js": "/Ekko/static/js/main.30f310bf.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Ekko/static/js/787.28cb0dcd.chunk.js",
+    "static/media/growth.png": "/Ekko/static/media/growth.62368a2850c4c120c6ba.png",
+    "static/media/static.png": "/Ekko/static/media/static.fcd682bd0984ffb028fc.png",
+    "index.html": "/Ekko/index.html",
+    "main.38658869.css.map": "/Ekko/static/css/main.38658869.css.map",
+    "main.30f310bf.js.map": "/Ekko/static/js/main.30f310bf.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Ekko/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38658869.css",
+    "static/js/main.30f310bf.js"
+  ]
+}
