@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Dashboard from './components/dashboard';
+import { Mainbody } from './components/Mainbody';
 
 function App() {
+  const setBg = () => {
+    var x = Math.floor(Math.random() * 256);
+    var y = Math.floor(Math.random() * 256);
+    var z = Math.floor(Math.random() * 256);
+    var bgColor = "rgb(" + x + "," + y + "," + z + ")";
+    console.log(bgColor);
+
+    document.body.style.background = bgColor;
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Dashboard setbg={setBg} />
+      <Mainbody />
+
     </div>
+
   );
 }
 

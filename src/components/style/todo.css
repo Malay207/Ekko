@@ -1,0 +1,60 @@
+.addtodo {
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #0f0f0f;
+    max-width: 200px;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addtodo input {
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+.showtodo {
+    max-height: 65%;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f100;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.eachtodo {
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #0f0f0f;
+    width: 80%;
+    background-color: white;
+    padding: 5px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.eachtodo .show {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eachtodo div i {
+    margin: 0 5px;
+    cursor: pointer;
+    color: #0f0f0f;
+}
